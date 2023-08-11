@@ -1,0 +1,92 @@
+body {
+    font-family: 'Audiowide', cursive;
+    font-family: 'Happy Monkey', cursive;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Scope One', serif;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0px 0px 1px black;
+    background: linear-gradient(#a2d2ff, pink);/*linear gradient is a CSS function just like URL*/
+}
+
+
+#pfp {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    border: 10px solid #efb0c9;
+}
+
+#bday-age {
+    background: #efb0c9;
+    border: 1px solid #efb0c9;
+    border-radius: 10px;
+    padding: 4px 20px;
+    margin-bottom: 5px;
+}
+
+#bday-date {
+    background: #efb0c9;
+    border: 1px solid #efb0c9;
+    border-radius: 10px;
+    padding: 4px 20px;
+    margin-top: 5px;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.giftcover {
+    width: 800px;
+    height: 800px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url(images/giftcover.jpg);
+    background-size: cover;
+}
+
+#gift-title {
+    margin-bottom: 2px;
+}
+
+#hint {
+    margin-top: 2px;
+}
+
+#happy-gift:hover { /*This is a pseudo class, depending on the specification we give it(hover in this cas) the stuff we pust in the bracketts will do different things*/
+    background-image: url(images/Banana.jpg);
+    background-size: cover;
+}
+
+#hot-gift:hover {
+    background-image: url(images/Picsart_23-07-24_21-24-57-042.jpg);
+    background-size: cover;
+}
+
+#cheers {
+    height: 200px; /*the more specific the element the more it is prioritized.
+    and ids are more specifc than classes so that's why this id overwrietes the 
+    previos 800px height we put in the giftcover class*/
+}
+
+#cheers:hover {
+    background-image: url(images/Banana.jpg);
+}
+
+#footer {
+    font-size: 27px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+a {
+    color: white;
+}
